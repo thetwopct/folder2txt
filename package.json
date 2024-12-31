@@ -1,51 +1,51 @@
 {
     "name": "folder2txt",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "CLI tool to combine text files in a folder into a single text file",
     "main": "folder2txt.js",
     "bin": {
-      "folder2txt": "./folder2txt.js"
+        "folder2txt": "./folder2txt.js"
     },
     "type": "module",
     "scripts": {
-      "test": "chmod +x folder2txt.js && ava",
-      "prepare": "chmod +x folder2txt.js",
-      "postinstall": "chmod +x folder2txt.js"
+        "test": "chmod +x folder2txt.js && ava",
+        "prepare": "chmod +x folder2txt.js",
+        "postinstall": "chmod +x folder2txt.js"
     },
     "keywords": [
-      "cli",
-      "text",
-      "converter",
-      "folder",
-      "files"
+        "cli",
+        "text",
+        "converter",
+        "folder",
+        "files"
     ],
     "author": "",
     "license": "MIT",
     "dependencies": {
-      "chalk": "^5.3.0",
-      "filesize": "^10.1.0",
-      "glob": "^10.3.10",
-      "isbinaryfile": "^5.0.4",
-      "meow": "^12.0.1",
-      "ora": "^7.0.1"
+        "chalk": "^5.3.0",
+        "filesize": "^10.1.0",
+        "glob": "^10.3.10",
+        "isbinaryfile": "^5.0.4",
+        "meow": "^12.0.1",
+        "ora": "^7.0.1"
     },
     "devDependencies": {
-      "ava": "^5.3.1"
+        "ava": "^5.3.1"
     },
     "engines": {
-      "node": ">=18"
+        "node": ">=18"
     },
     "files": [
-      "folder2txt.js"
+        "folder2txt.js"
     ],
     "ava": {
-      "files": [
-        "test/**/*"
-      ],
-      "timeout": "2m",
-      "nodeArguments": [
-        "--experimental-modules",
-        "--no-warnings"
-      ]
+        "files": [
+            "test/**/*"
+        ],
+        "timeout": "2m",
+        "nodeArguments": [
+            "--experimental-modules",
+            "--no-warnings"
+        ]
     }
-  }
+}
