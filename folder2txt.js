@@ -202,7 +202,11 @@ export async function main() {
         await writeOutput(content, outputPath);
     } catch (error) {
         console.error(chalk.red('Error:'), error.message);
-        process.exit(1);
+        if (process.env.NODE_ENV !== 'test') {
+            process.exit(1); // Only exit in non-test environments
+        } else {
+            throw error; // Rethrow error for tests
+        }
     }
 }
 
