@@ -8,9 +8,7 @@
     },
     "type": "module",
     "scripts": {
-        "test": "chmod +x folder2txt.js && ava",
-        "prepare": "chmod +x folder2txt.js",
-        "postinstall": "chmod +x folder2txt.js"
+        "test": "ava"
     },
     "keywords": [
         "cli",
