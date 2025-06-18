@@ -1,6 +1,6 @@
 {
     "name": "folder2txt",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "CLI tool to combine text files in a folder into a single text file",
     "main": "folder2txt.js",
     "bin": {
