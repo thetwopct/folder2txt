@@ -24,7 +24,7 @@ then navigate to the folder you want to convert to a txt file, and run:
 $ folder2txt
 ```
 
-## Options 
+## Options
 
 ```sh
 --output, -o     Specify output file path (default: output.txt)
@@ -48,7 +48,7 @@ $ folder2txt
 
 The tool generates a text file with this format:
 
-```txt 
+```txt
 ================================================================================
 File: path/to/file.txt
 Size: 1.2 KB
@@ -86,8 +86,11 @@ folder2txt is based on git2txt by Addy Osmani and retains the original MIT Licen
 
 ## Changelog
 
+1.0.2
+Fixed Windows compatibility - thanks to @darthwalsh
+
 1.0.1
 Adds more ignored files and folders
 
 1.0.0
-Initial release 
+Initial release

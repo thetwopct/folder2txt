@@ -17,7 +17,7 @@
         "folder",
         "files"
     ],
-    "author": "",
+    "author": "James Hunt",
     "license": "MIT",
     "dependencies": {
         "chalk": "^5.3.0",
