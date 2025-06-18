@@ -41,6 +41,7 @@
             "test/**/*"
         ],
         "timeout": "2m",
+        "serial": true,
         "nodeArguments": [
             "--experimental-modules",
             "--no-warnings"
